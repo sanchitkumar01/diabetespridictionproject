@@ -8,12 +8,19 @@ import warnings
 warnings.filterwarnings('ignore')
 
 
+# In[2]:
+
+
+get_ipython().run_line_magic('pip', 'install pandas numpy matplotlib seaborn')
+
+
 # In[3]:
 
 
 import pandas as pd
 import numpy as np
-
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 
 # In[4]:
